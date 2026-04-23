@@ -1,0 +1,16 @@
+* {
+	margin:0;
+}
+
+img {
+	display:none;
+}
+
+body {
+	overflow:hidden;
+}
+
+canvas {
+	background-image:url('imgs/brickWall.png');
+	background-size:50px;
+}
