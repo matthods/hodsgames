@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		background: #331a00;
+}
+
+canvas {
+	width: 1200px;
+	height: 620px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: none;
+}
+
+#header {
+	background-color: rgba(150,150,150);
+	text-align: center;
+	font-size: 60px;
+	color: #960000;
+}
+
+#highScoreLine {
+	font-size: 30px;
+}
+span {
+	font-family: 'butcherman', cursive;
+	padding: 20px;
+}
+
+section {
+	font-family: 'butcherman', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+
+#ready {
+	color: rgba(230,230,230);
+}
+
+button {
+	transition: .4s;
+	outline: none;
+	font-size: 50px;
+	font-family: 'butcherman', cursive;
+	border: 5px solid black;
+	color: white;
+}
+
+#Playbtn {
+	padding: 10px 20px;
+	background-color: rgba(100,100,0,.7);
+	border-radius: 20%;
+}
+
+span {
+	margin: 20px;
+}
+
+#howToPlay {
+	color: white;
+	margin: 10px;
+	font-size: 30px;
+}
+
+#howToShoot {
+	width: 400px;
+	position: absolute;
+	left: 0;
+	top: 70%;
+}
+#howToMove {
+	width: 470px;
+	position: absolute;
+	left: 60%;
+	top: 70%;
+}
+
+.letter {
+	padding: 0 15px;
+	margin: 20px;
+	border: 3px solid white;
+	border-radius: 10%;
+}
+
+#Playbtn:hover {
+	cursor: pointer;
+	background-color: rgba(255,255,205,.4);
+}
+
+.image {
+	display: none;
+}

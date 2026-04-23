@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> ZOMBIE DEMOLITION </title>
+		<link href="https://fonts.googleapis.com/css2?f
+		amily=Butcherman&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css
+		2?family=Pangolin&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?fam
+		ily=Notable&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?famil
+		y=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+		<link href="Game.css" rel="stylesheet">
+		<link rel='icon' href='favicon.cc.png' type='image/x-icon'/ >
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1054163765903583"
+		crossorigin="anonymous"></script>
+	</head>
+	<body oncontextmenu="return false">
+		<header id="header">
+			<span>
+				ZOMBIE
+			</span>
+			<span>
+				DEMOLITION
+			</span>
+			<div id= 'highScoreLine'>
+			<span>HIGHSCORE:  </span> <span id='highScore'></span>
+			</div>
+		</header>
+		<canvas id="canvas"></canvas>
+		<section>
+			<div id="ready">
+				Are You Ready?
+			</div>
+			<button onclick="playBtn()" id="Playbtn" type="button"> PLAY </button>
+			<div id='howToPlay'>
+				<div id='howToMove'>
+					<span class='letter'>Left</span>
+					AND<span class='letter'>Right</span>Arrow
+					<span>Keys</span>To<span>Move</span>
+				</div>
+				<div id='howToShoot'>
+					<span class='letter'>Z</span>
+					AND <span class='letter'>X</span>
+					TO<span>SHOOT</span>
+				</div>
+			</div>
+			<br>
+			<img class='image' id="playerImage" src='player.png'> 
+			<img class='image' id="ammoImage" src='Ammo.png'>
+			<img class='image' id='leftZombieImage' src='LeftZombie.png'>
+			<img class='image' id="rightZombieImage" src='RightZombie.png'>
+			<img class='image' id="fullHeartImage" src='FullHeart.png'>
+			<img class='image' id="halfHeartImage" src='HalfHeart.png'>
+			<img class='image' id="emptyHeartImage" src='EmptyHeart.png'>
+			<img class='image' id="playerDeadImage" src='PlayerDead.png'>
+			<img class='image' id="rightMegaBulletImage" src='RightMegaBullet.png'>
+			<img class='image' id="leftMegaBulletImage" src='LeftMegaBullet.png'>
+			<img class='image' id="rightMegaGunImage" src='RightMegaGun.png'>
+			<img class='image' id="leftMegaGunImage" src='LeftMegaGun.png'>
+			<img class='image' id="leftBabyZombieImage" src='LeftBabyZombie.png'>
+			<img class='image' id="rightBabyZombieImage" src='RightBabyZombie.png'>
+			<img class='image' id="leftGiantZombieImage" src='LeftGiantZombie.png'>
+			<img class='image' id="rightGiantZombieImage" src='RightGiantZombie.png'>
+		</section>
+		<script src="Game.js"></script>
+	</body>
+
+</html>
