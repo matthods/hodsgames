@@ -1,0 +1,404 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: center;
+	text-decoration: none;
+	color: black;
+	transition: .5s;
+}
+
+body {
+	background-color:rgb(190,120,120);
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#title {
+	margin-left: auto;
+}
+
+#gamesSoon {
+	position: absolute;
+		left: 77%;
+		top: 30px;
+	width: 200px;
+	font-size: 30px;
+	font-family: Impact;
+}
+
+#gameSep {
+	border: 7px solid rgb(200,10,20);
+}
+
+#holidays {
+	position: absolute;
+	top:0px;
+	width: 100%;
+	height: 160px;
+}
+
+.holidayTitle {
+	position:absolute;
+	width: 250px;
+	top:10px;
+	left: 14%;
+	font-size: 50px;
+	font-family: 'Mountains of Christmas', cursive;
+}
+
+#newYear {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#year {
+	font-family:'Merienda', cursive;
+	font-size: 70px;
+	color: rgb(252, 182, 3);
+	position:absolute;
+	left:64%;
+	top:-15%;
+	width: 100px;
+}
+
+#balloons {
+	position: absolute;
+	left: 5%;
+	top:15px;
+	width: 105px;
+	height: 180px;
+	background: url('balloons.png');
+	background-size: 105px;
+	background-repeat: no-repeat;
+}
+
+#presDay {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#person {
+	position:absolute;
+	left: 60%;
+	background-image:url('george.png');
+	background-repeat:no-repeat;
+	width: 200px;
+	height:180px;
+	background-size:180px;
+}
+
+#const {
+	position:absolute;
+	left: 2%;
+	top:5%;
+	background-image:url('const.png');
+	background-size: 130px;
+	width: 130px;
+	height:180px;
+	background-repeat: no-repeat;
+}
+
+
+#thanksDay {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#turkey {
+	position:absolute;
+	left: 62%;
+	top: 5%;
+	background-image:url('turkey.png');
+	background-repeat:no-repeat;
+	width: 200px;
+	height:180px;
+	background-size:160px;
+}
+
+#leaf {
+	position:absolute;
+	left: 2%;
+	top:5%;
+	background-image:url('leaf.png');
+	background-size: 130px;
+	width: 130px;
+	height:180px;
+	background-repeat: no-repeat;
+}
+
+#happyHolidays {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#candyCanes {
+	position: absolute;
+	left: 2%;
+	width: 150px;
+	height: 180px;
+	background: url('candyCanes.png');
+	background-size: 150px;
+	background-repeat: no-repeat;
+}
+
+#tree {
+	position: absolute;
+	left: 65%;
+	width: 85px;
+	height: 180px;
+	background: url('christmasTree.png');
+	background-size: 85px;
+	background-repeat: no-repeat;
+}
+
+#allGames {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.game {
+	float: left;
+	width: 300px;
+	margin: 10px;
+	border: 5px solid black;
+	border-radius: 10%;
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+}
+
+.gameBtn {
+	background-color: black;
+	margin: 10px;
+	width: 250px;
+	outline: none;
+	border: 5px solid black;
+	border-radius: 10%;
+	padding-top: 220px;
+}
+
+.gameBtn:hover {
+	width: 260px;
+}
+
+#zombieDemolition {
+	background-color:rgb(0,0,60);
+	background-image:url('ZombieDemolition/RightZombie.png'),url('ZombieDemolition/player.png');
+	background-repeat: no-repeat;
+	background-size: 160px,140px;
+	background-position: 275% 20%, center top;
+}
+
+#zombieDemolition:hover {
+	background-position: 60% 20%, 0 top;
+}
+
+#galaticTakedown {
+	transition: .8s;
+	background-image:url('GalaticTakedown/Rocket.png'),url('GalaticTakedown/BossMad.png');
+	background-size: 75px,250px;
+	background-repeat: no-repeat;
+	background-position: 0% 80%,50% -350%;
+}
+
+#galaticTakedown:hover {
+	background-position: 100% 80%,50% -0%;
+}
+
+#holeInWon {
+	background-color:rgb(140,245,140);
+	background-image:url('holCroc.png'),url('HoleInWon/Golfing1.png');
+	background-repeat: no-repeat;
+	background-size:160px,250px;
+	background-position:-50% 100%,-100% 10%;
+}
+
+#holeInWon:hover {
+	background-image:url('holCroc.png'),url('HoleInWon/Golfing-1.png');
+}
+
+#ultimatePong {
+	background-image:url('UltimatePong/LeftPaddle.png'),url('UltimatePong/RightPaddle.png');
+	background-repeat: no-repeat;
+	background-position: 10% 20%,90% 80%;
+	background-size: 20px;
+}
+
+#ultimatePong:hover {
+	background-position: 10% 80%,90% 20%;
+}
+
+#constructionRun {
+	background-color:rgb(205,205,170);
+	background-image:url('ConstructionRun/Running6.png'),url('ConstructionRun/baracade.png');
+	background-repeat: no-repeat;
+	background-position: 30% 20%,45% 80%;
+	background-size: 60px, 100px;
+}
+
+#constructionRun:hover {
+	background-position: 90% 40%,5% 80%;
+	background-size: 125px, 100px;
+	background-image:url('ConstructionRun/trip4.png'),url('ConstructionRun/baracade.png');
+}
+
+#verme {
+	background-image:url('Verme/bodyCircles.png'),url('Verme/apple.png');
+	background-repeat: no-repeat;
+	background-position: -300% 50%,95% 50%;
+	background-size: 200px, 30px;
+}
+
+#verme:hover {
+	background-position: 0 50%,95% 50%;
+}
+
+#zombieDemolition2 {
+	background-color:rgb(100,20,10);
+	background-image:url('ZombieDemolition2/images/still/playerStillShoot.png'),url('ZombieDemolition2/images/zombies/bigZombie0005.png');
+	background-repeat: no-repeat;
+	background-position: 60% 110%, -140% 70%;
+	background-size: 80px, 180px;
+}
+
+#zombieDemolition2:hover {
+	background-position: 150% 110%,0% 50%;
+}
+
+/*#inProgress {
+	position:absolute;
+	border-radius:50% 50% 0 0;
+	padding: 0 90px;
+	font-size: 20px;
+	background-color: rgb(200,20,20);
+	color: white;
+}*/
+
+#galaxySurge {
+	transition: .8s;
+	background-image:url('GalaxySurge/arm.png'),url('GalaxySurge/player.png'),url('GalaxySurge/exAsteroid.png');
+	background-repeat: no-repeat;
+	background-position: 11% 18%,10% 10%, 150% 20%;
+	background-size: 10px,20px, 100px;
+}
+
+#galaxySurge:hover {
+	background-position: 11% 84%,10% 90%, -20% 20%;
+}
+
+#treeProtector {
+	transition: .5s;
+	background-image:url('TreeProtector/standTur.png'),url('TreeProtector/mortar.png'),url('TreeProtector/evDir.png'),url('TreeProtector/rocketLauncher.png');
+	background-repeat: no-repeat;
+	background-position: 35% 85%,45% 85%,55% 85%,65% 85%;
+	background-size: 50px;
+}
+
+#treeProtector:hover {
+	background-position: 0% 80%,25% 40%,60% 30%,90% 15%;
+}
+
+#hillSlide {
+	background-color:rgb(200,200,255);
+	transition: .5s;
+	background-image:url('HillSlide/player0000.png'),url('HillSlide/sled.png');
+	background-repeat: no-repeat;
+	background-position: 5% 95%,5% 85%;
+	background-size: 50px;
+}
+
+#hillSlide:hover {
+	background-position: 80% 10%,80% 5%;
+}
+
+#theFight {
+	transition: .3s;
+	background-image:url('TheFight/images/mullet/mullet.png');
+	background-repeat: no-repeat;
+	background-position: 5% 95%,5% 85%;
+	background-size: 200px;
+}
+
+#theFight:hover {
+	background-image:url('TheFight/images/mullet/mulletKick0008.png');
+}
+
+#galacticCollapse {
+	transition: .6s;
+	background-image:url('GalacticCollapse/images/ships/rocket.png'),url('GalacticCollapse/images/ships/enemy.png');
+	background-repeat: no-repeat;
+	background-position: 5% 20%,95% 70%;
+	background-size: 60px,60px;
+}
+
+#galacticCollapse:hover {
+	background-position: 95% 20%,5% 70%;
+}
+
+#maskUp {
+	transition: .6s;
+	background-image:url('MaskUp/img/mask0000.png'),url('MaskUp/img/max.png');
+	background-repeat: no-repeat;
+	background-position: -15% 80%,95% 50%;
+	background-size: 130px, 120px;
+}
+
+#maskUp:hover {
+	background-image:url('MaskUp/img/mask0003.png'),url('MaskUp/img/max.png');
+	background-position: 50% 80%,50% 50%;
+}
+
+#swingStar {
+	transition: .5s;
+	background-image:url('SwingStar/imgs/playerSwing0008.png'),url('SwingStar/imgs/brickWall.png');
+	background-repeat: no-repeat,repeat;
+	background-position: 15% 80%,0;
+	background-size: 60px,50px;
+}
+
+#swingStar:hover {
+	background-image:url('SwingStar/imgs/playerSwing0008.png'),url('SwingStar/imgs/brickWall.png');
+	background-position: 90% 40%,0;
+}
+
+#donBtn {
+	position:sticky;
+	margin: 1%;
+	margin-top:-46px;
+	top:1%;
+	float:right;
+	padding: .1% .6%;
+	border:10% solid black;
+	background-color:rgb(100,100,255);
+	font-family: papyrus;
+	font-size:25px;
+	border-radius:10px;
+}
+
+#donBtn:hover {
+	background-color:rgb(130,130,255);
+}
+
+#donateCon {
+	padding: 0 15% 0 15%;
+	border:2px solid black;
+	font-family:'ink free';
+	font-weight:bold;
+	font-size:18px;
+	background-color:rgb(205,120,120);
+}
+
+/*hr {
+	border: 5px solid rgb(230,10,10);
+}
