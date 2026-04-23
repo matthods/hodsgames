@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	transition: .15s;
+}
+
+img {
+	display: none;
+}
+
+body {
+	background: black;
+}
+
+#title1 {
+	text-align: center;
+	width: 800px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -400px;
+	font-size: 200px;
+	font-family: Impact;
+	color: white;
+}
+
+#title2 {
+	text-align: center;
+	width: 800px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	margin-left: -400px;
+	font-size: 200px;
+	font-family: Impact;
+	color: white;
+}
+
+button {
+	text-align: center;
+	width: 310px;
+	height: 80px;
+	border-radius: 15px;
+	background: #fc3a3a;
+	outline: none;
+	border: 5px solid white;
+	position: absolute;
+	margin-left: -155px;
+	font-size: 40px;
+	font-family: 'Courier New';
+	font-weight: bold;
+}
+
+button:hover {
+	cursor: pointer;
+	width: 315px;
+	height: 85px;
+	font-size: 45px;
+	background: #cf0808;
+	margin-left: -157.5px;
+	margin-top: -2.5px;
+}
+
+button:active {
+	background: #8c0303;
+}
+
+#onePlayerBtn {
+	top: 35%;
+	left: 50%;
+	margin-left: -600px;
+}
+
+#twoPlayerBtn {
+	top: 50%;
+	left: 50%;
+	margin-left: -600px;
+}
+
+#crazyBtn {
+	top: 35%;
+	left: 50%;
+}
+
+#normalBtn {
+	top: 50%;
+	left: 50%;
+}
+
+#survivalBtn {
+	top: 35%;
+	left: 50%;
+	font-size: 33px;
+	margin-left: +300px;
+}
+
+#survivalBtn:hover {
+	font-size: 38px;
+}
+
+#scoreBtn {
+	top: 50%;
+	left: 50%;
+	margin-left: +300px;
+}
+
+#playBtn {
+	top: 65%;
+	left: 80%;
+	width: 320px;
+	height: 150px;
+	font-size: 110px;
+	background: #ffac1c;
+}
+
+#playBtn:hover {
+	width: 325px;
+	height: 155px;
+	font-size: 120px;
+	background: #ffce47;
+}
+
+#playBtn:active {
+	background: #d49b00;
+}
+
+#playAgain {
+	top: 7%;
+	left: 50%;
+	margin-top: -40px;
+}
+
+#playAgain:hover {
+	margin-top: -42.5px;
+}
+
+#goToMenu {
+	top: 22%;
+	left: 50%;
+	margin-top: -40px;
+}
+
+#goToMenu:hover {
+	margin-top: -42.5px;
+}
+
+#endScreen {
+	display: none;
+}
+
+canvas {
+	display: none;
+	background: black;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}

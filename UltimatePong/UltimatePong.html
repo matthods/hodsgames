@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title> Ultimate Pong </title>
+		<link rel='stylesheet' href='Game.css'>
+		<link rel='icon' href='speedBoost.png' type='image/x-icon'/ >
+	</head>
+	<body oncontextmenu="return false">
+		<canvas id='canvas' width='1200' height='620'>Loading...</canvas>
+		<img id='leftPaddle' src='LeftPaddle.png'>
+		<img id='rightPaddle' src='RightPaddle.png'>
+		<img id='crown' src='Crown.png'>
+		<img id='fog' src='fog.png'>
+		<img id='speedBoost' src='speedBoost.png'>
+		<img id='speedBoostFlip' src='speedBoostFlip.png'>
+		<div id='menu'>
+			<div id='title1'> ULTIMATE </div>
+			<div id='title2'> PONG </div>
+			<button id='onePlayerBtn' class='player' onclick='onePlayer()'>ONE PLAYER</button>
+			<button id='twoPlayerBtn' class='player' onclick='twoPlayers()'>TWO PLAYERS</button>
+			<button id='survivalBtn' class='player' onclick='survivalClick()'>SURVIVAL MODE</button>
+			<button id='scoreBtn' class='player' onclick='scoreClick()'>SCORE MODE</button>
+			<button id='crazyBtn' class='player' onclick='crazyClick()'>CRAZY</button>
+			<button id='normalBtn' class='player' onclick='normalClick()'>NORMAL</button>
+			<button id='playBtn' class='player' onclick='playClick()'>PLAY</button>
+		</div>
+		<div id='endScreen'>
+			<button id='playAgain' class='player' onclick='playAgain()'>PLAY AGAIN</button>
+			<button id='goToMenu' class='player' onclick='goToMenu()'>MENU</button>
+		</div>
+		<script src='Game.js'></script>
+	</body>
+</html>
