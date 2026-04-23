@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	transition: .3s;
+}
+
+.startBtn {
+	position:absolute;
+	left:50%;
+	outline:none;
+	border:5px solid black;
+	border-radius:4%;
+	font-family:Impact;
+	width:300px;
+	margin-left:-150px;
+}
+
+.startBtn:hover {
+	cursor:pointer;
+	border:10px solid black;
+	margin-top:-5px;
+}
+
+#survivalBtn {
+	top:33%;
+	padding:25px 0;
+	background-color:rgb(255,250,150);
+	font-size:50px;
+}
+
+#sandboxBtn {
+	top:55%;
+	padding:15px;
+	background-color:rgb(230,150,150);
+	font-size:30px;
+}
+
+canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: rgb(86, 176, 0);
+}
+
+img {
+	display: none;
+}

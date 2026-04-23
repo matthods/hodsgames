@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Tree Protector</title>
+		<link rel='stylesheet' href='Game.css'>
+		<link rel='icon' href='bluePrint.png' type='image/x-icon'/>
+	</head>
+	<body oncontextmenu="return false">
+		<canvas id='canvas' width='1200' height='620'>Loading...</canvas>
+		<img id='bluePrint' src='bluePrint.png'>
+		<img id='Turret' src='standTur.png'>
+		<img id='Mortar' src='mortar.png'>
+		<img id='Pulsator' src='evDir.png'>
+		<img id='Homing Missile' src='rocketLauncher.png'>
+		<img id='missile' src='missile.png'>
+		<button id='survivalBtn' class='startBtn' onclick='survival(),play();'>Survival</button>
+		<button id='sandboxBtn' class='startBtn' onclick='sandbox(),play();'>Sandbox</button>
+		<script src='Game.js'></script>
+	</body>
+</html>
