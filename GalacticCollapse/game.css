@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+}
+
+body {
+	background:#c03434;
+	overflow:hidden;
+}
+
+canvas {
+	background-color:rgb(40,40,40);
+}
+
+img {
+	display: none;
+}
