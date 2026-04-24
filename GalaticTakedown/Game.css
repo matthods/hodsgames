@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	background: #c03434;
+}
+
+#canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1200px;
+	height: 620px;
+	border: none;
+	background:url('SpaceBackground.png');
+	background-repeat: no-repeat;
+	background-size: 120%;
+}
+
+img {
+	display: none;
+}
