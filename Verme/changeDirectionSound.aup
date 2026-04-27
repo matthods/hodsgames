@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="changeDirectionSound_data" version="1.3.0" audacityversion="2.4.2" sel0="0.0000000000" sel1="0.2488888889" vpos="0" h="0.0000000000" zoom="1378.1250000000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Audio Track" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="8753">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808b82.au" len="8753" min="-0.120431" max="0.102987" rms="0.014321"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="7">
+				<controlpoint t="0.023219954649" val="0.000000100000"/>
+				<controlpoint t="0.023219954649" val="0.000000100000"/>
+				<controlpoint t="0.028299319728" val="0.056338012218"/>
+				<controlpoint t="0.083446712018" val="0.394366204739"/>
+				<controlpoint t="0.139319727891" val="0.746478915215"/>
+				<controlpoint t="0.139319727891" val="0.788732409477"/>
+				<controlpoint t="0.198480725624" val="0.056338012218"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="8753">
+				<waveblock start="0">
+					<simpleblockfile filename="e080886b.au" len="8753" min="-0.12" max="0.106857" rms="0.014361"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="7">
+				<controlpoint t="0.023219954649" val="0.000000100000"/>
+				<controlpoint t="0.023219954649" val="0.000000100000"/>
+				<controlpoint t="0.028299319728" val="0.056338012218"/>
+				<controlpoint t="0.083446712018" val="0.394366204739"/>
+				<controlpoint t="0.139319727891" val="0.746478915215"/>
+				<controlpoint t="0.139319727891" val="0.788732409477"/>
+				<controlpoint t="0.198480725624" val="0.056338012218"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

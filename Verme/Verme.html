@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Verme</title>
+		<link rel='stylesheet' href='Game.css'>
+		<link rel='icon' href='apple.png' type='image/x-icon'/>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1054163765903583"
+		crossorigin="anonymous"></script>
+	</head>
+	<body oncontextmenu="return false">
+		<canvas onclick='noCust()' class='sticky' id='canvas' width='1000' height='610'>Loading...</canvas>
+		<button id='customizeBtn' onclick='customize()'>Customize</button>
+		<img id='appleImg' src='apple.png'>
+		<img id='orangeImg' src='orange.png'>
+		<img id='bananaImg' src='banana.png'>
+		<img id='grapeImg' src='grape.png'>
+		<img id='watermelonImg' src='watermelon.png'>
+		<div id='customize'>
+			<div id='color'>
+				<div class='buyArea' id='black' onclick='useColor(); bodyBlack(); playCustSound()'>
+					Black
+					<br>
+					<div class='display black'></div>
+					<button id='blackBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+				<div class='buyArea' id='white' onclick='useColor(); bodyWhite(); playCustSound()'>
+					White
+					<br>
+					<div class='display white'></div>
+					<button id='whiteBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+				<div class='buyArea' id='blue' onclick='useColor(); bodyBlue(); playCustSound()'>
+					Blue
+					<br>
+					<div class='display blue'></div>
+					<button id='blueBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+				<div class='buyArea' id='orange' onclick='useColor(); bodyOrange(); playCustSound()'>
+					Orange
+					<br>
+					<div class='display orange'></div>
+					<button id='orangeBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+				<div class='buyArea' id='green' onclick='useColor(); bodyGreen(); playCustSound()'>
+					Green
+					<br>
+					<div class='display green'></div>
+					<button id='greenBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+				<div class='buyArea' id='red' onclick='useColor(); bodyRed(); playCustSound()'>
+					Red
+					<br>
+					<div class='display red'></div>
+					<button id='redBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+				<div class='buyArea' id='yellow' onclick='useColor(); bodyYellow(); playCustSound()'>
+					Yellow
+					<br>
+					<div class='display yellow'></div>
+					<button id='yellowBtn' class='button buyBtn buyColor'>Use</button>
+				</div>
+			</div>
+			<div id='bodyShape'>
+				<div class='buyArea' id='blocks' onclick='useShape(); bodyBlocks(); playCustSound()'>
+					Blocks
+					<br>
+					<div class='display blocks'></div>
+					<button id='blockBtn' class='button buyBtn buyShape'>Use</button>
+				</div>
+				<div class='buyArea' id='circles' onclick='useShape(); bodyCircles(); playCustSound()'>
+					Circles
+					<br>
+					<div class='display circles'></div>
+					<button id='circlesBtn' class='button buyBtn buyShape'>Use</button>
+				</div>
+				<div class='buyArea' id='diamonds' onclick='useShape(); bodyDiamonds(); playCustSound()'>
+					Diamonds
+					<br>
+					<div class='display diamonds'></div>
+					<button id='diamondsBtn' class='button buyBtn buyShape'>Use</button>
+				</div>
+				<div class='buyArea' id='scribbles' onclick='useShape(); bodyScribbles(); playCustSound()'>
+					Scribbles
+					<br>
+					<div class='display scribbles'></div>
+					<button id='scribblesBtn' class='button buyBtn buyShape'>Use</button>
+				</div>
+				<div class='buyArea' id='hourGlass' onclick='useShape(); bodyHourGlass(); playCustSound()'>
+					Hour Glass
+					<br>
+					<div class='display hourGlass'></div>
+					<button id='hourGlassBtn' class='button buyBtn buyShape'>Use</button>
+				</div>
+			</div>
+			<div id='foodType'>
+				<div class='buyArea' id='apple' onclick='useFood(); foodApple(); playCustSound()'>
+					Apple
+					<br>
+					<div class='display apple'></div>
+					<button id='appleBtn' class='button buyBtn buyFood'>Use</button>
+				</div>
+				<div class='buyArea' id='orangeFood' onclick='useFood(); foodOrange(); playCustSound()'>
+					Orange
+					<br>
+					<div class='display orangeFood'></div>
+					<button id='orangeFoodBtn' class='button buyBtn buyFood'>Use</button>
+				</div>
+				<div class='buyArea' id='banana' onclick='useFood(); foodBanana(); playCustSound()'>
+					Bananas
+					<br>
+					<div class='display banana'></div>
+					<button  id='bananaBtn' class='button buyBtn buyFood'>Use</button>
+				</div>
+				<div class='buyArea' id='grape' onclick='useFood(); foodGrape(); playCustSound()'>
+					Grapes
+					<br>
+					<div class='display grape'></div>
+					<button  id='grapeBtn' class='button buyBtn buyFood'>Use</button>
+				</div>
+				<div class='buyArea' id='watermelon' onclick='useFood(); foodWatermelon(); playCustSound()'>
+					Watermelon
+					<br>
+					<div class='display watermelon'></div>
+					<button  id='watermelonBtn' class='button buyBtn buyFood'>Use</button>
+				</div>
+			</div>
+		</div>
+		<script src='Game.js'></script>
+	</body>
+</html>
