@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>The Fight</title>
+		<link rel='stylesheet' href='game.css'>
+		<link rel='icon' href='images/mullet/mullet.png' type='image/x-icon'>
+	</head>
+	<body oncontextmenu="return false">
+		<canvas id='canvas'>Loading...</canvas>
+		<img id='mullet' src='images/mullet/mullet.png'>
+		<img id='mulletKick0' src='images/mullet/mulletKick0000.png'>
+		<img id='mulletKick1' src='images/mullet/mulletKick0001.png'>
+		<img id='mulletKick2' src='images/mullet/mulletKick0002.png'>
+		<img id='mulletKick3' src='images/mullet/mulletKick0003.png'>
+		<img id='mulletKick4' src='images/mullet/mulletKick0004.png'>
+		<img id='mulletKick5' src='images/mullet/mulletKick0005.png'>
+		<img id='mulletKick6' src='images/mullet/mulletKick0006.png'>
+		<img id='mulletKick7' src='images/mullet/mulletKick0007.png'>
+		<img id='mulletKick8' src='images/mullet/mulletKick0008.png'>
+		<img id='mulletJab0' src='images/mullet/mulletJab0000.png'>
+		<img id='mulletJab1' src='images/mullet/mulletJab0001.png'>
+		<img id='mulletJab2' src='images/mullet/mulletJab0002.png'>
+		<img id='mulletJab3' src='images/mullet/mulletJab0003.png'>
+		<img id='mulletBlock0' src='images/mullet/mulletBlock0000.png'>
+		<img id='mulletBlock1' src='images/mullet/mulletBlock0001.png'>
+		<img id='mulletBlock2' src='images/mullet/mulletBlock0002.png'>
+		<img id='mulletDeath0' src='images/mullet/mulletDeath0000.png'>
+		<img id='mulletDeath1' src='images/mullet/mulletDeath0001.png'>
+		<img id='mulletDeath2' src='images/mullet/mulletDeath0002.png'>
+		<img id='mulletDeath3' src='images/mullet/mulletDeath0003.png'>
+		<img id='mulletDeath4' src='images/mullet/mulletDeath0004.png'>
+		<img id='mulletDeath5' src='images/mullet/mulletDeath0005.png'>
+		<img id='mulletDeath6' src='images/mullet/mulletDeath0006.png'>
+		<img id='mulletDeath7' src='images/mullet/mulletDeath0007.png'>
+		<img id='mulletDeath8' src='images/mullet/mulletDeath0008.png'>
+		<img id='mulletDeath9' src='images/mullet/mulletDeath0009.png'>
+		<img id='mulletDeath10' src='images/mullet/mulletDeath0010.png'>
+		<img id='mulletDeath11' src='images/mullet/mulletDeath0011.png'>
+		<img id='mulletDeath12' src='images/mullet/mulletDeath0012.png'>
+		<img id='mulletDeath13' src='images/mullet/mulletDeath0013.png'>
+		<img id='mulletDeath14' src='images/mullet/mulletDeath0014.png'>
+		<img id='mulletDeath15' src='images/mullet/mulletDeath0015.png'>
+		<img id='mulletDeath16' src='images/mullet/mulletDeath0016.png'>
+		<img id='mulletDeath17' src='images/mullet/mulletDeath0017.png'>
+		<img id='mulletDeath18' src='images/mullet/mulletDeath0018.png'>
+		<img id='mulletDuck0' src='images/mullet/mulletDuck0000.png'>
+		<img id='mulletDuck1' src='images/mullet/mulletDuck0001.png'>
+		<img id='mulletDuck2' src='images/mullet/mulletDuck0002.png'>
+		<img id='mulletDuck3' src='images/mullet/mulletDuck0003.png'>
+		<img id='mulletDuck4' src='images/mullet/mulletDuck0004.png'>
+		<img id='mulletDuck5' src='images/mullet/mulletDuck0005.png'>
+		<img id='charge0' src='images/charge0000.png'>
+		<img id='charge1' src='images/charge0001.png'>
+		<img id='charge2' src='images/charge0002.png'>
+		<img id='charge3' src='images/charge0003.png'>
+		<img id='charge4' src='images/charge0004.png'>
+		<img id='charge5' src='images/charge0005.png'>
+		<img id='Charge0' src='images/mullet/mulletCharge0000.png'>
+		<img id='Charge1' src='images/mullet/mulletCharge0001.png'>
+		<img id='Charge2' src='images/mullet/mulletCharge0002.png'>
+		<img id='Charge3' src='images/mullet/mulletCharge0003.png'>
+		<img id='Charge4' src='images/mullet/mulletCharge0004.png'>
+		<img id='Charge5' src='images/mullet/mulletCharge0005.png'>
+		<img id='Charge6' src='images/mullet/mulletCharge0006.png'>
+		<img id='Charge7' src='images/mullet/mulletCharge0007.png'>
+		<img id='Charge8' src='images/mullet/mulletCharge0008.png'>
+		<img id='Charge9' src='images/mullet/mulletCharge0009.png'>
+		<img id='Charge10' src='images/mullet/mulletCharge0010.png'>
+		<img id='Charge11' src='images/mullet/mulletCharge0011.png'>
+		<img id='Charge12' src='images/mullet/mulletCharge0012.png'>
+		<img id='Charge13' src='images/mullet/mulletCharge0013.png'>
+		<img id='Charge14' src='images/mullet/mulletCharge0014.png'>
+		<img id='plant' src='images/plant/plant.png'>
+		<img id='plantDuck0' src='images/plant/duck0000.png'>
+		<img id='plantDuck1' src='images/plant/duck0001.png'>
+		<img id='plantDuck2' src='images/plant/duck0002.png'>
+		<img id='plantDuck3' src='images/plant/duck0003.png'>
+		<img id='plantDuck4' src='images/plant/duck0004.png'>
+		<img id='plantDuck5' src='images/plant/duck0005.png'>
+		<img id='plantDuck6' src='images/plant/duck0006.png'>
+		<img id='plantJab0' src='images/plant/jab0000.png'>
+		<img id='plantJab1' src='images/plant/jab0001.png'>
+		<img id='plantJab2' src='images/plant/jab0002.png'>
+		<img id='plantJab3' src='images/plant/jab0003.png'>
+		<img id='plantJab4' src='images/plant/jab0004.png'>
+		<img id='plantJab5' src='images/plant/jab0005.png'>
+		<img id='plantJab6' src='images/plant/jab0006.png'>
+		<img id='plantKick0' src='images/plant/kick0000.png'>
+		<img id='plantKick1' src='images/plant/kick0001.png'>
+		<img id='plantKick2' src='images/plant/kick0002.png'>
+		<img id='plantKick3' src='images/plant/kick0003.png'>
+		<img id='plantKick4' src='images/plant/kick0004.png'>
+		<img id='plantBlock0' src='images/plant/block0000.png'>
+		<img id='plantBlock1' src='images/plant/block0001.png'>
+		<img id='plantBlock2' src='images/plant/block0002.png'>
+		<img id='plantBlock3' src='images/plant/block0003.png'>
+		<img id='plantBlock4' src='images/plant/block0004.png'>
+		<img id='plantBlock5' src='images/plant/block0005.png'>
+		<img id='plantDeath0' src='images/plant/death0000.png'>
+		<img id='plantDeath1' src='images/plant/death0001.png'>
+		<img id='plantDeath2' src='images/plant/death0002.png'>
+		<img id='plantDeath3' src='images/plant/death0003.png'>
+		<img id='plantDeath4' src='images/plant/death0004.png'>
+		<img id='plantDeath5' src='images/plant/death0005.png'>
+		<img id='plantDeath6' src='images/plant/death0006.png'>
+		<img id='plantDeath7' src='images/plant/death0007.png'>
+		<img id='plantDeath8' src='images/plant/death0008.png'>
+		<img id='plantDeath9' src='images/plant/death0009.png'>
+		<img id='plantDeath10' src='images/plant/death0010.png'>
+		<img id='plantDeath11' src='images/plant/death0011.png'>
+		<img id='blob' src='images/blob/self.png'>
+		<img id='blobDuck0' src='images/blob/duck0000.png'>
+		<img id='blobDuck1' src='images/blob/duck0001.png'>
+		<img id='blobDuck2' src='images/blob/duck0002.png'>
+		<img id='blobDuck3' src='images/blob/duck0003.png'>
+		<img id='blobJab0' src='images/blob/jab0000.png'>
+		<img id='blobJab1' src='images/blob/jab0001.png'>
+		<img id='blobJab2' src='images/blob/jab0002.png'>
+		<img id='blobJab3' src='images/blob/jab0003.png'>
+		<img id='blobJab4' src='images/blob/jab0004.png'>
+		<img id='blobKick0' src='images/blob/kick0000.png'>
+		<img id='blobKick1' src='images/blob/kick0001.png'>
+		<img id='blobKick2' src='images/blob/kick0002.png'>
+		<img id='blobKick3' src='images/blob/kick0003.png'>
+		<img id='blobKick4' src='images/blob/kick0004.png'>
+		<img id='blobBlock0' src='images/blob/block0000.png'>
+		<img id='blobBlock1' src='images/blob/block0001.png'>
+		<img id='blobBlock2' src='images/blob/block0002.png'>
+		<img id='blobBlock3' src='images/blob/block0003.png'>
+		<img id='blobBlock4' src='images/blob/block0004.png'>
+		<img id='blobBlock5' src='images/blob/block0005.png'>
+		<img id='blobBlock6' src='images/blob/block0006.png'>
+		<img id='blobBlock7' src='images/blob/block0007.png'>
+		<img id='blobBlock8' src='images/blob/block0008.png'>
+		<img id='blobCharge0' src='images/blob/charge0000.png'>
+		<img id='blobCharge1' src='images/blob/charge0001.png'>
+		<img id='blobCharge2' src='images/blob/charge0002.png'>
+		<img id='blobDeath0' src='images/blob/death0000.png'>
+		<img id='blobDeath1' src='images/blob/death0001.png'>
+		<img id='blobDeath2' src='images/blob/death0002.png'>
+		<img id='blobDeath3' src='images/blob/death0003.png'>
+		<img id='blobDeath4' src='images/blob/death0004.png'>
+		<img id='blobDeath5' src='images/blob/death0005.png'>
+		<img id='blobDeath6' src='images/blob/death0006.png'>
+		<div id='playerChoices'>
+			<div id='keys'>
+				KEYS
+				<br>
+				<div>
+					Player 1: Arrow Keys + "N": Block, "M": Punch, ",": Kick, ".": Super
+				</div>
+				<br>
+				<div>
+					Player 2: WASD + "B": Block, "V": Punch, "C": Kick, "X": Super
+				</div>
+			</div>
+			<div class='playerChoice' id='player1Choice'>
+				<div class='pickPlayerTitle'>Player 2<br>Choose Your Fighter</div>
+				<div class='players'>
+					<button onclick='playerChose("mullet",1); player1Chose();' class='playerBtn mullet'></button>
+					<button onclick='playerChose("plant",1); player1Chose();' class='playerBtn plant'></button>
+					<button onclick='playerChose("blob",1); player1Chose();' class='playerBtn blob'></button>
+				</div>
+			</div>
+			<div class='playerChoice' id='player2Choice'>
+				<div class='pickPlayerTitle'>Player 1<br>Choose Your Fighter</div>
+				<div class='players'>
+					<button onclick='playerChose("mullet",0); player2Chose();' class='playerBtn mullet'></button>
+					<button onclick='playerChose("plant",0); player2Chose();' class='playerBtn plant'></button>
+					<button onclick='playerChose("blob",0); player2Chose();' class='playerBtn blob'></button>
+				</div>
+			</div>
+		</div>
+		<button id='playAgainBtn' onclick='playAgain();'>Play Again</button>
+		<script src='game.js'></script>
+	</body>
+</html>

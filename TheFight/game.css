@@ -1,0 +1,112 @@
+* {
+	margin:0;
+}
+
+body {
+	background:#c03434;
+	overflow:hidden;
+}
+
+canvas {
+	background-color:white;
+}
+
+#keys {
+	text-align:center;
+	font-family:Impact;
+	font-size:25px;
+	width:630px;
+	position:absolute;
+	left:50%;
+	margin-left:-300px;
+	top:-140px;
+}
+
+#playerChoices {
+	position:absolute;
+	width:900px;
+	height:500px;
+	left:50%;
+	margin-left:-450px;
+	top:65%;
+	margin-top:-250px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.playerChoice {
+	width:350px;
+}
+
+#player1Choice {
+	margin:0 90px 0 0;
+	visibility:hidden;
+}
+#player2Choice {
+	margin:0 0 0 90px;
+}
+
+.pickPlayerTitle {
+	font-family:Impact;
+	font-size:40px;
+	text-align:center;
+	padding:10px;
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+.playerBtn {
+	width:173px;
+	height:173px;
+	border:8px solid black;
+	transition:.2s;
+	outline:none;
+	margin-top:3px;
+}
+.playerBtn:hover {
+	border-color:grey;
+}
+
+.mullet {
+	background:url('images/mullet/mullet.png');
+	background-size:400px;
+	background-position:65% 0;
+}
+.plant {
+	background:url('images/plant/plant.png');
+	background-size:400px;
+	background-position:65% 0;
+}
+.blob {
+	background:url('images/blob/self.png');
+	background-size:300px;
+	background-position:65% 40%;
+}
+
+#playAgainBtn {
+	display:none;
+	position:absolute;
+	top:10%;
+	left:50%;
+	margin-left:-125px;
+	width:250px;
+	font-size:50px;
+	font-family:impact;
+	outline:none;
+	border-width:1px 2px 5px 1px;
+	background-color:rgb(250,100,80);
+}
+
+#playAgainBtn:active {
+	border-width:1px;
+	margin-top:4px;
+	margin-left:-124px;
+	border-color:black;
+}
+
+img {
+	display:none;
+}
