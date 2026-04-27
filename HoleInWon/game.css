@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+}
+
+body {
+	background: #42d64c;
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: rgb(125,144,255);
+	display: none;
+}
+
+h1 {
+	font-family: 'Courier New';
+	font-size: 50px;
+	text-align: center;
+}
+
+#howTo {
+	position: absolute;
+	left: 5%;
+	top: 15%;
+	font-family: 'Courier New';
+	font-size: 40px;
+}
+
+#records {
+	margin: 20% 0 0 0;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Courier';
+}
+
+.recs {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 150px;
+	font-family: 'Courier New';
+}
+
+#title {
+	width: 500px;
+	position: absolute;
+		left: 60%;
+		top: 20%;
+	text-align: center;
+	font-family: 'Ceviche One', cursive;
+	font-size: 200px;
+}
+
+#startBtn {
+	position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+	padding: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 90px;
+	background:#c2e1ff;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+#startBtn:hover {
+	background: #8ac5ff;
+}
+
+#startBtn:active {
+	background: #719ec9;
+}
+
+#homeBtn {
+	position:absolute;
+	display:none;
+	padding:5px;
+	font-family:papyrus;
+	font-weight:bold;
+	font-size:20px;
+	background-color:rgb(90,240,155);
+	border-radius:2px;
+}
+
+#homeBtn:hover {
+	background:rgb(130,220,125);
+}
+
+#playBtn {
+	position:absolute;
+	font-size:17px;
+	display:none;
+	background: rgb(150,230,150);
+	border-radius:2px;
+	font-family:papyrus;
+}
+
+#playBtn:hover {
+	background: rgb(120,230,190);
+}
+
+img {
+	display: none;
+}
